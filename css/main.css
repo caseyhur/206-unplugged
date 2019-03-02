@@ -7,7 +7,7 @@
  * Kroc Camen, and the H5BP dev community and team.
  */
 
- 
+
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
@@ -97,19 +97,207 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/*--------------- Base Header - Footer Styles ----------------------*/
 
+header,
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
 
+/*------------- Header Styles -----------------*/
 
+header {
 
+}
 
+header .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
 
+header figure {
 
+}
 
+.header-divider {
 
+}
 
+header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+}
 
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 
+/*------------- Mobile Styles - Homepage -----------------*/
 
+.hero-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+main .content-wrapper {
+
+}
+
+aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+aside .form-description {
+
+}
+
+aside .form {
+
+}
+
+/*--------------- Mobile Sytles - Homepage - Features Section -----------------*/
+
+.features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.content-wrapper {
+
+}
+
+.features-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+article .font-awesome-icon {
+
+}
+
+article .features-item-description {
+
+}
+
+/*--------------- Mobile Styles - Homepage - Reviews Section -----------------*/
+
+.reviews {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+
+}
+
+article {
+
+}
+
+/*----------------- Mobile Styles - About - Mission Section ----------------*/
+
+.mission {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.mission-content {
+
+}
+
+/*------------- Mobile Styles - About - Map Section -----------------*/
+
+.map {
+
+}
+
+figure {
+
+}
+
+/*------------- Mobile Styles - About Page - Contact Section -----------------*/
+
+.contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.contact-column {
+
+}
+
+/*---------------- Mobile Styles - FAQ Page - FAQ Setion -----------------*/
+
+faq {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+faq .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.faq-section {
+
+}
+
+.faq-content {
+
+}
+
+/*--------------- Footer -----------------*/
+
+footer {
+
+}
+
+footer .footer-content {
+
+}
+
+footer .contact {
+
+}
+
+footer .social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 
  /* ==========================================================================
@@ -192,7 +380,7 @@ textarea {
   clear: both;
 }
 
- 
+
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
    These examples override the primary ('mobile first') styles.
@@ -210,7 +398,7 @@ textarea {
     /* Style adjustments for high resolution devices */
 }
 
- 
+
 /* ==========================================================================
    Print styles.
    Inlined to avoid the additional HTTP request:
@@ -286,5 +474,3 @@ textarea {
         page-break-after: avoid;
     }
 }
-
-
